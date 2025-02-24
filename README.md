@@ -35,7 +35,7 @@ sudo FirePi/install.sh
 Go to the URL (Firefox on the Raspberry Pi will do) and enter your Google Login
 
 ## WARNINGS
-The installation script (install.sh) uses pip3's --break-system-packages which is considered dangerous if you have other programs that use these packages: google-api-python-client, google-auth-httplib2, or google-auth-oauthlib.
+The installation script (install.sh) uses pip3's --break-system-packages flag which is considered dangerous if you have other programs that use these packages: google-api-python-client, google-auth-httplib2, or google-auth-oauthlib.
 ### The future:
 Google is requiring two-factor authentication on your account for access to Google Cloud by May 12, 2025. If you don't have this enabled already, please do so for security.
 

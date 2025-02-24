@@ -32,7 +32,14 @@ Now install (Read [Warnings](https://github.com/16BitDoggo/FirePi/new/main?readm
 ```
 sudo FirePi/install.sh
 ```
-Go to the URL (Firefox on the Raspberry Pi will do) and enter your Google Login
+Go to the URL (Firefox on the Raspberry Pi will do) and enter your Google Login.
+If you recieve an email soon from yourself, the script worked! Otherwise, please post it in the issues and I will try to get to it.
+
+Now run:
+```
+sudo raspi-config
+```
+Enter "1. System Options" via the arrow keys. Now "S5. Boot/Autologin," then "B2. Console Autologin. Now wait for the changes to apply and  
 
 ## WARNINGS
 The installation script (install.sh) uses pip3's --break-system-packages flag which is considered dangerous if you have other programs that use these packages: google-api-python-client, google-auth-httplib2, or google-auth-oauthlib.

@@ -39,12 +39,15 @@ Now run:
 ```
 sudo raspi-config
 ```
-Enter "1. System Options" via the arrow keys. Now "S5. Boot/Autologin," then "B2. Console Autologin. Now wait for the changes to apply and  
+Enter "1. System Options" via the arrow keys. Now "S5. Boot/Autologin," then "B2. Console Autologin. Now wait for the changes to apply and it will kick you back out to the main menu. Now press the right arrow key to select "Finish"
 
 ## WARNINGS
 The installation script (install.sh) uses pip3's --break-system-packages flag which is considered dangerous if you have other programs that use these packages: google-api-python-client, google-auth-httplib2, or google-auth-oauthlib.
+
 ### The future:
-Google is requiring two-factor authentication on your account for access to Google Cloud by May 12, 2025. If you don't have this enabled already, please do so for security.
+Google is requiring two-factor authentication on your account for access to Google Cloud by May 12, 2025. If you don't have this enabled already, please do so for security and so you won't lose access.
+
+
 
 ## Credits
-Thanks to: [The Python Code (Article)](https://thepythoncode.com/article/use-gmail-api-in-python), [The Python Code (Code)](https://thepythoncode.com/code/use-gmail-api-in-python), and [MagPi Issue 27](https://issuu.com/themagpi/docs/issue27final/17?e=1)
+Thanks to: [The Python Code (Article)](https://thepythoncode.com/article/use-gmail-api-in-python), [The Python Code (Code)](https://thepythoncode.com/code/use-gmail-api-in-python), and [MagPi Issue 27](https://issuu.com/themagpi/docs/issue27final/17?e=1) as well as all of the trial and error. That is, after all, the best way to learn.

@@ -47,7 +47,9 @@ The installation script (install.sh) uses pip3's --break-system-packages flag wh
 ### The future:
 Google is requiring two-factor authentication on your account for access to Google Cloud by May 12, 2025. If you don't have this enabled already, please do so for security and so you won't lose access.
 
-
+## Future Goals:
+- I would like to add a web GUI to view the current status from the logs.
+(These will most likely never happen but here's hoping that someone could help me with implementation)
 
 ## Credits
 Thanks to: [The Python Code (Article)](https://thepythoncode.com/article/use-gmail-api-in-python), [The Python Code (Code)](https://thepythoncode.com/code/use-gmail-api-in-python), and [MagPi Issue 27](https://issuu.com/themagpi/docs/issue27final/17?e=1) as well as all of the trial and error. That is, after all, the best way to learn.

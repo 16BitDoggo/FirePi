@@ -1,4 +1,5 @@
 # FirePi
+## !!!UNFINISHED!!!
 ## Purpose
 The purpose of this is in fire alarm demo systems on Raspberry Pis. That is, of course, why it is called _"FirePi."_ The idea is that you can connect a pull station (Normally Open) to the Raspberry Pi's GPIO from 3v3 to GPIO 4 (Pin 7).
 

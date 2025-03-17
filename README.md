@@ -6,7 +6,11 @@ The purpose of this is in fire alarm demo systems on Raspberry Pis. That is, of 
 ## Prerequisites
 Before we get it installed there are some prerequisites.
 ### Google API
-Go to [this page](https://thepythoncode.com/article/use-gmail-api-in-python) and follow the "Enabling Gmail API" Section right until the code. Put the credentials.json in a new folder named FirePi.
+![Screenshot 2025-03-17 163950](https://github.com/user-attachments/assets/208632c0-c76f-461f-ae6d-637915d575e2)
+![Screenshot 2025-03-17 164017](https://github.com/user-attachments/assets/56188c7d-d5dd-401a-bbc9-b528d2cba3f3)
+![Screenshot 2025-03-17 164051](https://github.com/user-attachments/assets/20f3bd03-2bf1-4245-887a-4be8fdd99e00)
+
+
 ### Raspberry Pi OS **(FULL)**
 This will require the full version of the Raspberry Pi OS which includes the desktop, to sign in to Google.
 

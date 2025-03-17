@@ -1,7 +1,7 @@
 # FirePi
 ## !!!UNFINISHED!!!
 ## Purpose
-The purpose of this is in fire alarm demo systems on Raspberry Pis. That is, of course, why it is called _"FirePi."_ The idea is that you can connect a pull station (Normally Open) to the Raspberry Pi's GPIO from 3v3 to GPIO 4 (Pin 7).
+The purpose of this is in fire alarm demo systems on Raspberry Pis. That is, of course, why it is called _"FirePi."_ The idea is that you can connect a pull station (Normally Open) to the Raspberry Pi's GPIO from 3v3 to GPIO 4 (Pin 7). You can also connect (Snap Circuits)[https://elenco.com/] fire alarm demo systems with 3v3 and any ground pin.
 
 ## Prerequisites
 Before we get it installed there are some prerequisites.
@@ -40,10 +40,10 @@ Now run:
 ```
 sudo raspi-config
 ```
-Enter "1. System Options" via the arrow keys. Now "S5. Boot/Autologin," then "B2. Console Autologin. Now wait for the changes to apply and it will kick you back out to the main menu. Now press the right arrow key to select "Finish"
+Enter "1. System Options" via the arrow keys. Now "S5. Boot/Autologin," then "B2. Console Autologin. Now wait for the changes to apply and it will kick you back out to the main menu. Now press the right arrow key to select "Finish" and reboot.
 
 ## WARNINGS
-The installation script (install.sh) uses pip3's --break-system-packages flag which is considered dangerous if you have other programs that use these packages: google-api-python-client, google-auth-httplib2, or google-auth-oauthlib.
+The installation script (install.sh) uses pip3's --break-system-packages flag which is considered dangerous if you have other programs that use these packages: google-api-python-client, google-auth-httplib2, or google-auth-oauthlib. If you do, [make a venv.](https://docs.python.org/3/library/venv.html)
 
 ### The future:
 Google is requiring two-factor authentication on your account for access to Google Cloud by May 12, 2025. If you don't have this enabled already, please do so for security and so you won't lose access.
